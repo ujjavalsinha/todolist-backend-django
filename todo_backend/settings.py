@@ -120,7 +120,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-CORS_ORIGIN_WHITELIST = ('http://localhost:3000' ,'https://todolist-backend-django.herokuapp.com','https://todolist-react-django.herokuapp.com')
+CORS_ORIGIN_WHITELIST = ('http://localhost:3000' ,'https://todolist-backend-django.herokuapp.com','https://todolist-react-django.herokuapp.com', 'https://todo-list-frontend-one.vercel.app')
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
