@@ -25,7 +25,7 @@ SECRET_KEY = 'mooxwi@^e-8ql2bpot#&6=!6_2hn0obmd+-7v$gj!9nv&ryz00'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app', 'https://todo-list-frontend-one.vercel.app']
 
 
 # Application definition
@@ -80,12 +80,7 @@ WSGI_APPLICATION = 'todo_backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
+DATABASES = {}
 
 
 # Password validation
